@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+body{
+    font-family: "Sevillana", cursive;
+    background-image: url("galxy.jpg");
+    background-repeat: no-repeat;
+   
+ background-size: 100%;
+    
+}
+.container {
+    text-align: center;
+    background: #942f2f; /* Nền container màu xám tối */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+h1 {
+    color: #fff; /* Chữ màu trắng */
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: #333; /* Nền select màu xám đậm */
+    color: #fff; /* Chữ màu trắng */
+    border: 1px solid #444; /* Viền select màu xám nhạt */
+    border-radius: 4px;
+}
+
+.image-container {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+#box1 {
+    width:fit-content;
+    border-style:dashed;
+    border-color: rgb(177, 28, 177);
+    text-align: center;
+    margin: 0 auto;
+}   
+#myVideo {
+    margin-left: 550px;
+    margin-top: 220px;
+    width: 100%
+    ;
+    
+    z-index: 999;
+    height:100%;
+    position: absolute;
+}
+#box2 {
+    width: 70px;
+    transform: translate(900px, 100px);
+    position: absolute;
+    margin: 0 auto;
+}
+#box4 {
+    width : 300px;
+    position:absolute
+    
+    
+}
